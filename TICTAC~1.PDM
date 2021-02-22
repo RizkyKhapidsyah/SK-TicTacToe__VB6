@@ -1,0 +1,180 @@
+[Root]
+Most Recent Package=b_tictactoe
+
+
+[Package|Standard Setup NAHID|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\Package
+
+[Package|Standard Setup NAHID|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup NAHID|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup NAHID|Files Found]
+
+[Package|Standard Setup NAHID|Files Released]
+
+[Package|Standard Setup NAHID|Missing Dependency Information]
+
+[Package|Standard Setup NAHID|Out-of-Date Dependency Information]
+
+[Package|Standard Setup NAHID|Files Added]
+
+[Package|Standard Setup NAHID|Files Removed]
+
+[Package|Standard Setup NAHID|Files In Project]
+C:\My Documents\Tic tac toe\Tictactoe.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup NAHID|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup NAHID|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup NAHID|Install Locations]
+C:\My Documents\Tic tac toe\Tictactoe.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup NAHID|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Tic tac toe\Tictactoe.exe=Yes
+
+[Package|Standard Setup NAHID|Distribution]
+Type=single
+Size=
+Title=NAHID
+
+[Package|Standard Setup NAHID|IconGroups]
+Group0=NAHID
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup NAHID|NAHID]
+Icon1=Tictactoe.EXE
+Title1=NAHID
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup NAHID|Package]
+PackageFolder=C:\My Documents\Package
+ProjectFolder=C:\My Documents\Tic tac toe
+ServerSideCab=
+File1=C:\My Documents\Package\setup.exe
+File2=C:\My Documents\Package\Setup.Lst
+File3=C:\My Documents\Package\Tictactoe.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|B_tictactoe|Tic Tac Toe]
+Icon1=Tictactoe.exe
+Title1=Tic Tac Toe
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|b_tictactoe|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\package 3
+
+[Package|b_tictactoe|Configure DAO ISAMs]
+Applicable=No
+
+[Package|b_tictactoe|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|b_tictactoe|Files Found]
+
+[Package|b_tictactoe|Files Released]
+
+[Package|b_tictactoe|Missing Dependency Information]
+
+[Package|b_tictactoe|Out-of-Date Dependency Information]
+
+[Package|b_tictactoe|Files Added]
+
+[Package|b_tictactoe|Files Removed]
+
+[Package|b_tictactoe|Files In Project]
+C:\My Documents\Tic tac toe\Tictactoe.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|b_tictactoe|Configure Registry Files]
+Applicable=No
+
+[Package|b_tictactoe|Configure Remote Servers]
+Applicable=No
+
+[Package|b_tictactoe|Install Locations]
+C:\My Documents\Tic tac toe\Tictactoe.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|b_tictactoe|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Tic tac toe\Tictactoe.exe=No
+
+[Package|b_tictactoe|Distribution]
+Type=single
+Size=
+Title=tictactoe
+
+[Package|b_tictactoe|IconGroups]
+Group0=tictactoe
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|b_tictactoe|tictactoe]
+Icon1=Tictactoe.exe
+Title1=tictactoe
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|b_tictactoe|Package]
+PackageFolder=C:\My Documents\package 3
+ProjectFolder=C:\My Documents\Tic tac toe
+ServerSideCab=
+File1=C:\My Documents\package 3\setup.exe
+File2=C:\My Documents\package 3\Setup.Lst
+File3=C:\My Documents\package 3\Tictactoe.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
